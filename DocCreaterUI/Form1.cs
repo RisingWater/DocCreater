@@ -201,7 +201,7 @@ namespace DocCreaterUI
         {
             SaveToReg();
 
-            string OutputFileName = "Daas-T-010-01[" + ProjectName.Text + "]版本开发文档[" + DateTime.Now.ToString("yyyymmdd") + "].doc";
+            string OutputFileName = "Daas-T-010-01[" + ProjectName.Text + "]版本开发文档[" + DateTime.Now.ToString("yyyyMMdd") + "].doc";
             string OutputFilePath = ProjectPath.Text + "\\doc\\";
             Log("开始生成文档：" + OutputFileName);
             Log("文档保存路径：" + OutputFilePath);
